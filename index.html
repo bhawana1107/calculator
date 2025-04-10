@@ -1,1 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <input type="text" id="result">
+        <div class="buttons">
+            <button class="clear" onclick="handleClick(this)">C</button>
+            <button class="operator" onclick="numberClick(this)">/</button>
+            <button class="operator" onclick="numberClick(this)">*</button>
+            <button class="operator" onclick="numberClick(this)">-</button>
+            <button class="number" onclick="numberClick(this)">7</button>
+            <button class="number" onclick="numberClick(this)">8</button>
+            <button class="number" onclick="numberClick(this)">9</button>
+            <button class="operator" onclick="numberClick(this)">+</button>
+            <button class="number" onclick="numberClick(this)">4</button>
+            <button class="number" onclick="numberClick(this)">5</button>
+            <button class="number" onclick="numberClick(this)">6</button>
+            <button class="equal" onclick="handleClick(this)">=</button>
+            <button class="number" onclick="numberClick(this)">1</button>
+            <button class="number" onclick="numberClick(this)">2</button>
+            <button class="number" onclick="numberClick(this)">3</button>
+            <button class="number" onclick="numberClick(this)">0</button>
+            <button class="number" onclick="numberClick(this)">.</button>
+            <!-- <button class="number" onclick="handleClick(this)">%</button> -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
